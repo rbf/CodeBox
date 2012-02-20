@@ -1,16 +1,16 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="yes"?>
 <!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
 
 <database>
     <databaseInfo>
         <version>134481920</version>
         <UUID>C4C1D790-A930-4A39-9595-710FBD113D71</UUID>
-        <nextObjectID>102</nextObjectID>
+        <nextObjectID>117</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
                     <key>NSPersistenceFrameworkVersion</key>
-                    <integer>251</integer>
+                    <integer>358</integer>
                     <key>NSStoreModelVersionHashes</key>
                     <dict>
                         <key>Asset</key>
@@ -47,10 +47,113 @@
         </metadata>
     </databaseInfo>
     <object type="SEARCH" id="z102">
-        <attribute name="sort" type="int16">-1</attribute>
+        <attribute name="sort" type="int16">0</attribute>
         <attribute name="name" type="string">All Snippets</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="ASSET" id="z103">
+        <attribute name="notes" type="string">http://stackoverflow.com/questions/1465305/set-uibutton-title-label-font-size-programmatically</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">YnV0dG9uLnRpdGxlTGFiZWwuZm9udCA9IFtVSUZvbnQgc3lzdGVtRm9udE9mU2l6ZTpfX3NpemVf
+X107
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z104"></relationship>
+    </object>
+    <object type="SNIPPET" id="z104">
+        <attribute name="name" type="string">Change UIButton font size</attribute>
+        <attribute name="modified" type="date">351185477.94793099164962768555</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z103"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z105"></relationship>
+    </object>
+    <object type="TAG" id="z105">
+        <attribute name="name" type="string">Objective-C</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z106 z104"></relationship>
+    </object>
+    <object type="SNIPPET" id="z106">
+        <attribute name="name" type="string">Get localized string</attribute>
+        <attribute name="modified" type="date">351194246.94615101814270019531</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z107"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z105"></relationship>
+    </object>
+    <object type="ASSET" id="z107">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">TlNMb2NhbGl6ZWRTdHJpbmcoQCJfX2tleV9fIiwgQCJfX2NvbW1lbnRfXyIp
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z106"></relationship>
+    </object>
+    <object type="SNIPPET" id="z108">
+        <attribute name="name" type="string">Trace</attribute>
+        <attribute name="modified" type="date">351442890.11326998472213745117</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z109">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">TlNMb2coQCI8PCE+PiBfX2xvZ19fIik7ICAvLyBUT0RPOiBEZXYgY29tbWVudA==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="SNIPPET" id="z110">
+        <attribute name="name" type="string">Trace with variable</attribute>
+        <attribute name="modified" type="date">351442894.87145000696182250977</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z111"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z111">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">TlNMb2coQCI8PCE+PiBfX3Zhcl9fID0+ICVAIiwgX192YXJfXyk7ICAvLyBUT0RPOiBEZXYgY29t
+bWVudA==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="SNIPPET" id="z112">
+        <attribute name="name" type="string">Content height of a UIWebView</attribute>
+        <attribute name="modified" type="date">351443114.34982198476791381836</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z113"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z113">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://stackoverflow.com/questions/3837214/how-to-get-the-content-height-of-a-uiwebview-in-iphone-sdk-objective-c</attribute>
+        <attribute name="content" type="binary">TlNTdHJpbmcqIGhlaWdodCA9IFt3ZWJWaWV3IHN0cmluZ0J5RXZhbHVhdGluZ0phdmFTY3JpcHRG
+cm9tU3RyaW5nOkAiZG9jdW1lbnQuYm9keS5vZmZzZXRIZWlnaHQ7Il0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z112"></relationship>
+    </object>
+    <object type="SNIPPET" id="z116">
+        <attribute name="name" type="string">Resize UIWebView to fit content</attribute>
+        <attribute name="modified" type="date">351447363.60640400648117065430</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z117"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z117">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">"[webView sizeToFit];" doesn't work always correctly.
+
+From: http://stackoverflow.com/questions/3936041/how-to-determine-the-content-size-of-a-uiwebview/3937599#3937599</attribute>
+        <attribute name="content" type="binary">CiNwcmFnbWEgbWFyayAtIFVJV2ViVmlld0RlbGVnYXRlIE1ldGhvZHMKCi0gKHZvaWQpcmVzaXpl
+VG9GaXRDb250ZW50OihVSVdlYlZpZXcqKXdlYlZpZXcgewogICAgQ0dSZWN0IGZyYW1lID0gd2ViVmlldy5mcmFtZTsKICAgIGZyYW1lLnNpemUuaGVpZ2h0ID0gMTsKICAgIHdlYlZpZXcuZnJhbWUgPSBmcmFtZTsKICAgIENHU2l6ZSBmaXR0aW5nU2l6ZSA9IFt3ZWJWaWV3IHNpemVUaGF0Rml0czpDR1NpemVaZXJvXTsKICAgIGZyYW1lLnNpemUgPSBmaXR0aW5nU2l6ZTsKICAgIHdlYlZpZXcuZnJhbWUgPSBmcmFtZTsKfQoKLSh2b2lkKSB3ZWJWaWV3RGlkRmluaXNoTG9hZDooVUlXZWJWaWV3Kil3ZWJWaWV3IHsKICAgIFtzZWxmIHJlc2l6ZVRvRml0Q29udGVudDp3ZWJWaWV3XTsKfQoK
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z116"></relationship>
     </object>
 </database>
