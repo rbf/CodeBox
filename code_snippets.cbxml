@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>C4C1D790-A930-4A39-9595-710FBD113D71</UUID>
-        <nextObjectID>117</nextObjectID>
+        <nextObjectID>123</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -155,5 +155,54 @@ From: http://stackoverflow.com/questions/3936041/how-to-determine-the-content-si
 VG9GaXRDb250ZW50OihVSVdlYlZpZXcqKXdlYlZpZXcgewogICAgQ0dSZWN0IGZyYW1lID0gd2ViVmlldy5mcmFtZTsKICAgIGZyYW1lLnNpemUuaGVpZ2h0ID0gMTsKICAgIHdlYlZpZXcuZnJhbWUgPSBmcmFtZTsKICAgIENHU2l6ZSBmaXR0aW5nU2l6ZSA9IFt3ZWJWaWV3IHNpemVUaGF0Rml0czpDR1NpemVaZXJvXTsKICAgIGZyYW1lLnNpemUgPSBmaXR0aW5nU2l6ZTsKICAgIHdlYlZpZXcuZnJhbWUgPSBmcmFtZTsKfQoKLSh2b2lkKSB3ZWJWaWV3RGlkRmluaXNoTG9hZDooVUlXZWJWaWV3Kil3ZWJWaWV3IHsKICAgIFtzZWxmIHJlc2l6ZVRvRml0Q29udGVudDp3ZWJWaWV3XTsKfQoK
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z116"></relationship>
+    </object>
+    <object type="SNIPPET" id="z118">
+        <attribute name="name" type="string">UIView Animation</attribute>
+        <attribute name="modified" type="date">351529724.31909602880477905273</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z119"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z119">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">LSAodm9pZClwZXJmb3JtQW5pbWF0aW9uT246KFVJVmlldyopdmlldyBkdXJpbmc6KGZsb2F0KXNl
+Y29uZHMgIHsKCVtVSVZpZXcgYmVnaW5BbmltYXRpb25zOm5pbCBjb250ZXh0Om5pbF07CglbVUlWaWV3IHNldEFuaW1hdGlvbkR1cmF0aW9uOnNlY29uZHNdOwoJW1VJVmlldyBzZXRBbmltYXRpb25EZWxlZ2F0ZTpzZWxmXTsgICAgCglbVUlWaWV3IHNldEFuaW1hdGlvbldpbGxTdGFydFNlbGVjdG9yOkBzZWxlY3RvcihhbmltYXRpb25XaWxsU3RhcnQ6Y29udGV4dDopXTsKCVtVSVZpZXcgc2V0QW5pbWF0aW9uRGlkU3RvcFNlbGVjdG9yOkBzZWxlY3RvcihhbmltYXRpb25EaWRTdG9wOmZpbmlzaGVkOmNvbnRleHQ6KV07ICAgIAoJW3ZpZXcgc2V0VHJhbnNmb3JtOkNHQWZmaW5lVHJhbnNmb3JtTWFrZVRyYW5zbGF0aW9uKDEwMC4wLCAwLjApXTsgLy8gZXhhbXBsZQoJW1VJVmlldyBjb21taXRBbmltYXRpb25zXTsKfQoKLSAodm9pZClhbmltYXRpb25XaWxsU3RhcnQ6KE5TU3RyaW5nICopYW5pbWF0aW9uSUQgY29udGV4dDoodm9pZCAqKWNvbnRleHQgeyAgICAKCU5TTG9nKEAiYW5pbWF0aW9uV2lsbFN0YXJ0Iik7ICAgIAp9CgotICh2b2lkKWFuaW1hdGlvbkRpZFN0b3A6KE5TU3RyaW5nICopYW5pbWF0aW9uSUQgZmluaXNoZWQ6KEJPT0wpZmluaXNoZWQgY29udGV4dDoodm9pZCAqKWNvbnRleHQgeyAgICAKCU5TTG9nKEAiYW5pbWF0aW9uRGlkU3RvcCIpOyAgICAKfQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z118"></relationship>
+    </object>
+    <object type="ASSET" id="z120">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">W2NvbnRyb2xsZXIgYWRkVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3Rvcihjb250cm9sbGVyVG91
+Y2hlZDopIGZvckNvbnRyb2xFdmVudHM6VUlDb250cm9sRXZlbnRUb3VjaERvd25dOw==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z121"></relationship>
+    </object>
+    <object type="SNIPPET" id="z121">
+        <attribute name="name" type="string">Add touch action programatically</attribute>
+        <attribute name="modified" type="date">351595705.63984799385070800781</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z120"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z122">
+        <attribute name="name" type="string">Big horizontal swipe gesture recognizer (pan)</attribute>
+        <attribute name="modified" type="date">351604260.43937402963638305664</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z123"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z123">
+        <attribute name="notes" type="string">Implemented as a pan</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">CnR5cGVkZWYgZW51bSB7CiAgICBQYW5HZXN0dXJlRGlyZWN0aW9uUmlnaHQgPSAxIDw8IDAsCiAg
+ICBQYW5HZXN0dXJlRGlyZWN0aW9uTGVmdCAgPSAxIDw8IDEKfSBQYW5HZXN0dXJlRGlyZWN0aW9uOwoKCi0gKHZvaWQpbG9uZ1Bhbkdlc3R1cmVSZWNvZ25pemVkOihQYW5HZXN0dXJlRGlyZWN0aW9uKWRpcmVjdGlvbiB7CiAgICBpZiAoZGlyZWN0aW9uID09IFBhbkdlc3R1cmVGcm9tTGVmdFRvUmlnaHQpIHsKICAgIAkvLyBpbXBsZW1lbnQgYWN0aW9ucwogICAgfSBlbHNlIHsKICAgIAkvLyBpbXBsZW1lbnQgYWN0aW9ucwogICAgfQp9CgotICh2b2lkKXBhbkdlc3R1cmVSZWNvZ25pemVkOihVSVBhbkdlc3R1cmVSZWNvZ25pemVyICopcGFuR2VzdHVyZVJlY29nbml6ZXIgeyAgICAKICAgIGlmIChwYW5HZXN0dXJlUmVjb2duaXplci5zdGF0ZSA9PSBVSUdlc3R1cmVSZWNvZ25pemVyU3RhdGVFbmRlZCkgewogICAgICAgIENHUG9pbnQgdHJhbnNsYXRpb24gPSBbcGFuR2VzdHVyZVJlY29nbml6ZXIgdHJhbnNsYXRpb25JblZpZXc6c2VsZi52aWV3XTsKICAgICAgICBpZiAoYWJzKHRyYW5zbGF0aW9uLngpID4gSVBBRF9NSU5fUEFOX0dFU1RVUkVfTEVOR1RIKSB7CiAgICAgICAgICAgIGlmICh0cmFuc2xhdGlvbi54ID4gMCkgewogICAgICAgICAgICAgICAgW3NlbGYgbG9uZ1Bhbkdlc3R1cmVSZWNvZ25pemVkOlBhbkdlc3R1cmVGcm9tTGVmdFRvUmlnaHRdOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgW3NlbGYgbG9uZ1Bhbkdlc3R1cmVSZWNvZ25pemVkOlBhbkdlc3R1cmVGcm9tUmlnaHRUb0xlZnRdOyAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKLSh2b2lkKSBhZGRIb3Jpem9udGFsUGFuUmVjb2duaXplciB7CiAgICBVSVBhbkdlc3R1cmVSZWNvZ25pemVyICpyZWNvZ25pemVyID0gW1tVSVBhbkdlc3R1cmVSZWNvZ25pemVyIGFsbG9jXSBpbml0V2l0aFRhcmdldDpzZWxmIGFjdGlvbjpAc2VsZWN0b3IocGFuR2VzdHVyZVJlY29nbml6ZWQ6KV07ICAKICAgIHJlY29nbml6ZXIubWluaW11bU51bWJlck9mVG91Y2hlcyA9IDE7CiAgICByZWNvZ25pemVyLm1heGltdW1OdW1iZXJPZlRvdWNoZXMgPSAxOwogICAgW3NlbGYudmlldyBhZGRHZXN0dXJlUmVjb2duaXplcjpyZWNvZ25pemVyXTsgICAgCiAgICBbcmVjb2duaXplciByZWxlYXNlXTsgICAgCn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z122"></relationship>
     </object>
 </database>
