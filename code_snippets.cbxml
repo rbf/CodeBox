@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>C4C1D790-A930-4A39-9595-710FBD113D71</UUID>
-        <nextObjectID>123</nextObjectID>
+        <nextObjectID>126</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -204,5 +204,36 @@ Y2hlZDopIGZvckNvbnRyb2xFdmVudHM6VUlDb250cm9sRXZlbnRUb3VjaERvd25dOw==
 ICBQYW5HZXN0dXJlRGlyZWN0aW9uTGVmdCAgPSAxIDw8IDEKfSBQYW5HZXN0dXJlRGlyZWN0aW9uOwoKCi0gKHZvaWQpbG9uZ1Bhbkdlc3R1cmVSZWNvZ25pemVkOihQYW5HZXN0dXJlRGlyZWN0aW9uKWRpcmVjdGlvbiB7CiAgICBpZiAoZGlyZWN0aW9uID09IFBhbkdlc3R1cmVGcm9tTGVmdFRvUmlnaHQpIHsKICAgIAkvLyBpbXBsZW1lbnQgYWN0aW9ucwogICAgfSBlbHNlIHsKICAgIAkvLyBpbXBsZW1lbnQgYWN0aW9ucwogICAgfQp9CgotICh2b2lkKXBhbkdlc3R1cmVSZWNvZ25pemVkOihVSVBhbkdlc3R1cmVSZWNvZ25pemVyICopcGFuR2VzdHVyZVJlY29nbml6ZXIgeyAgICAKICAgIGlmIChwYW5HZXN0dXJlUmVjb2duaXplci5zdGF0ZSA9PSBVSUdlc3R1cmVSZWNvZ25pemVyU3RhdGVFbmRlZCkgewogICAgICAgIENHUG9pbnQgdHJhbnNsYXRpb24gPSBbcGFuR2VzdHVyZVJlY29nbml6ZXIgdHJhbnNsYXRpb25JblZpZXc6c2VsZi52aWV3XTsKICAgICAgICBpZiAoYWJzKHRyYW5zbGF0aW9uLngpID4gSVBBRF9NSU5fUEFOX0dFU1RVUkVfTEVOR1RIKSB7CiAgICAgICAgICAgIGlmICh0cmFuc2xhdGlvbi54ID4gMCkgewogICAgICAgICAgICAgICAgW3NlbGYgbG9uZ1Bhbkdlc3R1cmVSZWNvZ25pemVkOlBhbkdlc3R1cmVGcm9tTGVmdFRvUmlnaHRdOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgW3NlbGYgbG9uZ1Bhbkdlc3R1cmVSZWNvZ25pemVkOlBhbkdlc3R1cmVGcm9tUmlnaHRUb0xlZnRdOyAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKLSh2b2lkKSBhZGRIb3Jpem9udGFsUGFuUmVjb2duaXplciB7CiAgICBVSVBhbkdlc3R1cmVSZWNvZ25pemVyICpyZWNvZ25pemVyID0gW1tVSVBhbkdlc3R1cmVSZWNvZ25pemVyIGFsbG9jXSBpbml0V2l0aFRhcmdldDpzZWxmIGFjdGlvbjpAc2VsZWN0b3IocGFuR2VzdHVyZVJlY29nbml6ZWQ6KV07ICAKICAgIHJlY29nbml6ZXIubWluaW11bU51bWJlck9mVG91Y2hlcyA9IDE7CiAgICByZWNvZ25pemVyLm1heGltdW1OdW1iZXJPZlRvdWNoZXMgPSAxOwogICAgW3NlbGYudmlldyBhZGRHZXN0dXJlUmVjb2duaXplcjpyZWNvZ25pemVyXTsgICAgCiAgICBbcmVjb2duaXplciByZWxlYXNlXTsgICAgCn0=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z122"></relationship>
+    </object>
+    <object type="SNIPPET" id="z124">
+        <attribute name="name" type="string">Inner shadow in UIView</attribute>
+        <attribute name="modified" type="date">352286625.66490101814270019531</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z125"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z125">
+        <attribute name="notes" type="string">../code_snippets/resources/inner_shadow_in_uiview/shadow_bottom_01_light.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_bottom_02_bold.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_left_01_light.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_left_02_bold.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_right_01_light.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_right_02_bold.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_square_01_light.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_square_02_bold.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_top_01_light.png
+../code_snippets/resources/inner_shadow_in_uiview/shadow_top_02_bold.png</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">I2RlZmluZSBJRF9TSEFET1dfVklFVyA5ODcKCi0gKHZvaWQpcmVtb3ZlSW5uZXJTaGFkb3dGcm9t
+OihVSVZpZXcqKXZpZXcgewogICAgVUlWaWV3KiBzaGFkb3cgPSBbdmlldyB2aWV3V2l0aFRhZzpJRF9TSEFET1dfVklFV107CiAgICBpZiAoc2hhZG93KSB7CiAgICAgICAgW3NoYWRvdyByZW1vdmVGcm9tU3VwZXJ2aWV3XTsKICAgIH0KfQoKLSAodm9pZClhZGRJbm5lclNoYWRvd1RvOihVSVZpZXcqKXZpZXcgewogICAgW3NlbGYgcmVtb3ZlSW5uZXJTaGFkb3dGcm9tOnZpZXddOwogICAgVUlJbWFnZSAqc2hhZG93SW1hZ2UgPSBbVUlJbWFnZSBpbWFnZU5hbWVkOkAic2hhZG93LnBuZyJdOwogICAgc2hhZG93SW1hZ2UgPSBbc2hhZG93SW1hZ2Ugc3RyZXRjaGFibGVJbWFnZVdpdGhMZWZ0Q2FwV2lkdGg6Zmxvb3JmKHNoYWRvd0ltYWdlLnNpemUud2lkdGgvMikgdG9wQ2FwSGVpZ2h0OmZsb29yZihzaGFkb3dJbWFnZS5zaXplLmhlaWdodC8yKV07CiAgICBVSUltYWdlVmlldyAqc2hhZG93SW1hZ2VWaWV3ID0gW1tVSUltYWdlVmlldyBhbGxvY10gaW5pdFdpdGhJbWFnZTpzaGFkb3dJbWFnZV07CiAgICBzaGFkb3dJbWFnZVZpZXcuY29udGVudE1vZGUgPSBVSVZpZXdDb250ZW50TW9kZVNjYWxlVG9GaWxsOwogICAgc2hhZG93SW1hZ2VWaWV3LmF1dG9yZXNpemluZ01hc2sgPSBVSVZpZXdBdXRvcmVzaXppbmdGbGV4aWJsZVdpZHRoIHwgVUlWaWV3QXV0b3Jlc2l6aW5nRmxleGlibGVIZWlnaHQ7CiAgICBDR1JlY3Qgc2hhZG93RnJhbWUgPSB2aWV3LmJvdW5kczsKICAgIHNoYWRvd0ZyYW1lLm9yaWdpbi55ICs9IDE7IC8vIGVtcGlyaWNhbCBmaW5lIHR1bm5pbmcKICAgIHNoYWRvd0ZyYW1lLnNpemUuaGVpZ2h0IC09IDE7IC8vIGVtcGlyaWNhbCBmaW5lIHR1bm5pbmcKICAgIHNoYWRvd0ltYWdlVmlldy5mcmFtZSA9IHNoYWRvd0ZyYW1lOwogICAgW3NoYWRvd0ltYWdlVmlldyBzZXRUYWc6SURfU0hBRE9XX1ZJRVddOyAvLyB0byBiZSBhYmxlIHRvIGlkZW50aWZ5IGl0IGxhdGVyIGlmIG5lZWQgdG8gcmVtb3ZlCiAgICBbdmlldyBhZGRTdWJ2aWV3OnNoYWRvd0ltYWdlVmlld107CiAgICBbc2hhZG93SW1hZ2VWaWV3IHJlbGVhc2VdOwp9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z124"></relationship>
+    </object>
+    <object type="ASSET" id="z126">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET"></relationship>
     </object>
 </database>
