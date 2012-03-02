@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>C4C1D790-A930-4A39-9595-710FBD113D71</UUID>
-        <nextObjectID>126</nextObjectID>
+        <nextObjectID>130</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -235,5 +235,39 @@ OihVSVZpZXcqKXZpZXcgewogICAgVUlWaWV3KiBzaGFkb3cgPSBbdmlldyB2aWV3V2l0aFRhZzpJRF9T
         <attribute name="sort" type="int32">1</attribute>
         <attribute name="path" type="string">Snippet.m</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SNIPPET" id="z127">
+        <attribute name="name" type="string">Load UIImage from a URL</attribute>
+        <attribute name="modified" type="date">352317080.36090701818466186523</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z128"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z128">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://stackoverflow.com/questions/2782454/can-i-load-a-uiimage-from-a-url</attribute>
+        <attribute name="content" type="binary">TlNJbWFnZSAqaW1hZ2UgPSBbVUlJbWFnZSBpbWFnZVdpdGhEYXRhOltOU0RhdGEgZGF0YVdpdGhD
+b250ZW50c09mVVJMOltOU1VSTCBVUkxXaXRoU3RyaW5nOk15VVJMXV1dOwo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z127"></relationship>
+    </object>
+    <object type="ASSET" id="z129">
+        <attribute name="notes" type="string">from http://bees4honey.com/blog/tutorial/how-to-save-an-image-from-uiwebview/</attribute>
+        <attribute name="content" type="binary">Ci0gKFVJSW1hZ2UqKXRhcHBlZEltYWdlV2l0aDooVUlHZXN0dXJlUmVjb2duaXplciAqKXNlbmRl
+ciB7CiAgICBpbnQgc2Nyb2xsUG9zaXRpb25ZID0gW1tzZWxmIHN0cmluZ0J5RXZhbHVhdGluZ0phdmFTY3JpcHRGcm9tU3RyaW5nOkAid2luZG93LnBhZ2VZT2Zmc2V0Il0gaW50VmFsdWVdOwogICAgaW50IHNjcm9sbFBvc2l0aW9uWCA9IFtbc2VsZiBzdHJpbmdCeUV2YWx1YXRpbmdKYXZhU2NyaXB0RnJvbVN0cmluZzpAIndpbmRvdy5wYWdlWE9mZnNldCJdIGludFZhbHVlXTsKICAgIGludCBkaXNwbGF5V2lkdGggPSBbW3NlbGYgc3RyaW5nQnlFdmFsdWF0aW5nSmF2YVNjcmlwdEZyb21TdHJpbmc6QCJ3aW5kb3cub3V0ZXJXaWR0aCJdIGludFZhbHVlXTsKICAgIENHRmxvYXQgc2NhbGUgPSBzZWxmLmZyYW1lLnNpemUud2lkdGggLyBkaXNwbGF5V2lkdGg7CiAgICBDR1BvaW50IHB0ID0gW3NlbmRlciBsb2NhdGlvbkluVmlldzpzZWxmXTsKICAgIHB0LnggKj0gc2NhbGU7CiAgICBwdC55ICo9IHNjYWxlOwogICAgcHQueCArPSBzY3JvbGxQb3NpdGlvblg7CiAgICBwdC55ICs9IHNjcm9sbFBvc2l0aW9uWTsKICAgIE5TU3RyaW5nICpqcyA9IFtOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiZG9jdW1lbnQuZWxlbWVudEZyb21Qb2ludCglZiwgJWYpLnRhZ05hbWUiLCBwdC54LCBwdC55XTsKICAgIE5TU3RyaW5nICogdGFnTmFtZSA9IFtzZWxmIHN0cmluZ0J5RXZhbHVhdGluZ0phdmFTY3JpcHRGcm9tU3RyaW5nOmpzXTsKICAgIGlmICghW3RhZ05hbWUgaXNFcXVhbFRvU3RyaW5nOkhUTUxfSU1BR0VfVEFHXSkgewogICAgICAgIHJldHVybiBuaWw7CiAgICB9CiAgICBOU1N0cmluZyAqaW1nVVJMID0gW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCJkb2N1bWVudC5lbGVtZW50RnJvbVBvaW50KCVmLCAlZikuc3JjIiwgcHQueCwgcHQueV07CiAgICBOU1N0cmluZyAqaW1hZ2VVUkwgPSBbc2VsZiBzdHJpbmdCeUV2YWx1YXRpbmdKYXZhU2NyaXB0RnJvbVN0cmluZzppbWdVUkxdOwogICAgcmV0dXJuIFtVSUltYWdlIGltYWdlV2l0aERhdGE6W05TRGF0YSBkYXRhV2l0aENvbnRlbnRzT2ZVUkw6W05TVVJMIFVSTFdpdGhTdHJpbmc6aW1hZ2VVUkxdXV07Cn0=
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z130"></relationship>
+    </object>
+    <object type="SNIPPET" id="z130">
+        <attribute name="name" type="string">Get the tapped image in a UIWebView</attribute>
+        <attribute name="modified" type="date">352317167.24452400207519531250</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z129"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
