@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>C4C1D790-A930-4A39-9595-710FBD113D71</UUID>
-        <nextObjectID>130</nextObjectID>
+        <nextObjectID>158</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -268,6 +268,234 @@ ciB7CiAgICBpbnQgc2Nyb2xsUG9zaXRpb25ZID0gW1tzZWxmIHN0cmluZ0J5RXZhbHVhdGluZ0phdmFT
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z129"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z131">
+        <attribute name="name" type="string">Return cell value in a UITableView</attribute>
+        <attribute name="modified" type="date">352916966.55080002546310424805</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z132"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z132">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://www.iphonesdkarticles.com/2009/01/uitableview-creating-simple-table-view.html</attribute>
+        <attribute name="content" type="binary">LSAoVUlUYWJsZVZpZXdDZWxsICopdGFibGVWaWV3OihVSVRhYmxlVmlldyAqKXRhYmxlVmlldyBj
+ZWxsRm9yUm93QXRJbmRleFBhdGg6KE5TSW5kZXhQYXRoICopaW5kZXhQYXRoIHsKwqAKc3RhdGljIE5TU3RyaW5nICpDZWxsSWRlbnRpZmllciA9IEAiQ2VsbCI7CsKgClVJVGFibGVWaWV3Q2VsbCAqY2VsbCA9IFt0YWJsZVZpZXcgZGVxdWV1ZVJldXNhYmxlQ2VsbFdpdGhJZGVudGlmaWVyOkNlbGxJZGVudGlmaWVyXTsKaWYgKGNlbGwgPT0gbmlsKSB7CmNlbGwgPSBbW1tVSVRhYmxlVmlld0NlbGwgYWxsb2NdIGluaXRXaXRoRnJhbWU6Q0dSZWN0WmVybyByZXVzZUlkZW50aWZpZXI6Q2VsbElkZW50aWZpZXJdIGF1dG9yZWxlYXNlXTsKfQrCoAovLyBTZXQgdXAgdGhlIGNlbGwuLi4KTlNTdHJpbmcgKmNlbGxWYWx1ZSA9IFtsaXN0T2ZJdGVtcyBvYmplY3RBdEluZGV4OmluZGV4UGF0aC5yb3ddOwpjZWxsLnRleHQgPSBjZWxsVmFsdWU7CsKgCnJldHVybiBjZWxsOwp9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z131"></relationship>
+    </object>
+    <object type="SNIPPET" id="z133">
+        <attribute name="name" type="string">Table View Programming Guide for iOS: A Closer Look at Table-View Cells</attribute>
+        <attribute name="modified" type="date">352918350.45727300643920898438</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z134"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z134">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">https://developer.apple.com/library/ios/#DOCUMENTATION/UserExperience/Conceptual/TableView_iPhone/TableViewCells/TableViewCells.html</attribute>
+        <attribute name="content" type="binary">I2RlZmluZSBNQUlOTEFCRUxfVEFHIDEKI2RlZmluZSBTRUNPTkRMQUJFTF9UQUcgMgojZGVmaW5l
+IFBIT1RPX1RBRyAzCiAKLSAoVUlUYWJsZVZpZXdDZWxsICopdGFibGVWaWV3OihVSVRhYmxlVmlldyAqKXRhYmxlVmlldyBjZWxsRm9yUm93QXRJbmRleFBhdGg6KE5TSW5kZXhQYXRoICopaW5kZXhQYXRoIHsKIAogICAgc3RhdGljIE5TU3RyaW5nICpDZWxsSWRlbnRpZmllciA9IEAiSW1hZ2VPblJpZ2h0Q2VsbCI7CiAKICAgIFVJTGFiZWwgKm1haW5MYWJlbCwgKnNlY29uZExhYmVsOwogICAgVUlJbWFnZVZpZXcgKnBob3RvOwogICAgVUlUYWJsZVZpZXdDZWxsICpjZWxsID0gW3RhYmxlVmlldyBkZXF1ZXVlUmV1c2FibGVDZWxsV2l0aElkZW50aWZpZXI6Q2VsbElkZW50aWZpZXJdOwogICAgaWYgKGNlbGwgPT0gbmlsKSB7CiAgICAgICAgY2VsbCA9IFtbW1VJVGFibGVWaWV3Q2VsbCBhbGxvY10gaW5pdFdpdGhTdHlsZTpVSVRhYmxlVmlld0NlbGxTdHlsZURlZmF1bHQgcmV1c2VJZGVudGlmaWVyOkNlbGxJZGVudGlmaWVyXSBhdXRvcmVsZWFzZV07CiAgICAgICAgY2VsbC5hY2Nlc3NvcnlUeXBlID0gVUlUYWJsZVZpZXdDZWxsQWNjZXNzb3J5RGV0YWlsRGlzY2xvc3VyZUJ1dHRvbjsKIAogICAgICAgIG1haW5MYWJlbCA9IFtbW1VJTGFiZWwgYWxsb2NdIGluaXRXaXRoRnJhbWU6Q0dSZWN0TWFrZSgwLjAsIDAuMCwgMjIwLjAsIDE1LjApXSBhdXRvcmVsZWFzZV07CiAgICAgICAgbWFpbkxhYmVsLnRhZyA9IE1BSU5MQUJFTF9UQUc7CiAgICAgICAgbWFpbkxhYmVsLmZvbnQgPSBbVUlGb250IHN5c3RlbUZvbnRPZlNpemU6MTQuMF07CiAgICAgICAgbWFpbkxhYmVsLnRleHRBbGlnbm1lbnQgPSBVSVRleHRBbGlnbm1lbnRSaWdodDsKICAgICAgICBtYWluTGFiZWwudGV4dENvbG9yID0gW1VJQ29sb3IgYmxhY2tDb2xvcl07CiAgICAgICAgbWFpbkxhYmVsLmF1dG9yZXNpemluZ01hc2sgPSBVSVZpZXdBdXRvcmVzaXppbmdGbGV4aWJsZUxlZnRNYXJnaW4gfCBVSVZpZXdBdXRvcmVzaXppbmdGbGV4aWJsZUhlaWdodDsKICAgICAgICBbY2VsbC5jb250ZW50VmlldyBhZGRTdWJ2aWV3Om1haW5MYWJlbF07CiAKICAgICAgICBzZWNvbmRMYWJlbCA9IFtbW1VJTGFiZWwgYWxsb2NdIGluaXRXaXRoRnJhbWU6Q0dSZWN0TWFrZSgwLjAsIDIwLjAsIDIyMC4wLCAyNS4wKV0gYXV0b3JlbGVhc2VdOwogICAgICAgIHNlY29uZExhYmVsLnRhZyA9IFNFQ09ORExBQkVMX1RBRzsKICAgICAgICBzZWNvbmRMYWJlbC5mb250ID0gW1VJRm9udCBzeXN0ZW1Gb250T2ZTaXplOjEyLjBdOwogICAgICAgIHNlY29uZExhYmVsLnRleHRBbGlnbm1lbnQgPSBVSVRleHRBbGlnbm1lbnRSaWdodDsKICAgICAgICBzZWNvbmRMYWJlbC50ZXh0Q29sb3IgPSBbVUlDb2xvciBkYXJrR3JheUNvbG9yXTsKICAgICAgICBzZWNvbmRMYWJlbC5hdXRvcmVzaXppbmdNYXNrID0gVUlWaWV3QXV0b3Jlc2l6aW5nRmxleGlibGVMZWZ0TWFyZ2luIHwgVUlWaWV3QXV0b3Jlc2l6aW5nRmxleGlibGVIZWlnaHQ7CiAgICAgICAgW2NlbGwuY29udGVudFZpZXcgYWRkU3VidmlldzpzZWNvbmRMYWJlbF07CiAKICAgICAgICBwaG90byA9IFtbW1VJSW1hZ2VWaWV3IGFsbG9jXSBpbml0V2l0aEZyYW1lOkNHUmVjdE1ha2UoMjI1LjAsIDAuMCwgODAuMCwgNDUuMCldIGF1dG9yZWxlYXNlXTsKICAgICAgICBwaG90by50YWcgPSBQSE9UT19UQUc7CiAgICAgICAgcGhvdG8uYXV0b3Jlc2l6aW5nTWFzayA9IFVJVmlld0F1dG9yZXNpemluZ0ZsZXhpYmxlTGVmdE1hcmdpbiB8IFVJVmlld0F1dG9yZXNpemluZ0ZsZXhpYmxlSGVpZ2h0OwogICAgICAgIFtjZWxsLmNvbnRlbnRWaWV3IGFkZFN1YnZpZXc6cGhvdG9dOwogICAgfSBlbHNlIHsKICAgICAgICBtYWluTGFiZWwgPSAoVUlMYWJlbCAqKVtjZWxsLmNvbnRlbnRWaWV3IHZpZXdXaXRoVGFnOk1BSU5MQUJFTF9UQUddOwogICAgICAgIHNlY29uZExhYmVsID0gKFVJTGFiZWwgKilbY2VsbC5jb250ZW50VmlldyB2aWV3V2l0aFRhZzpTRUNPTkRMQUJFTF9UQUddOwogICAgICAgIHBob3RvID0gKFVJSW1hZ2VWaWV3ICopW2NlbGwuY29udGVudFZpZXcgdmlld1dpdGhUYWc6UEhPVE9fVEFHXTsKICAgIH0KICAgIE5TRGljdGlvbmFyeSAqYURpY3QgPSBbc2VsZi5saXN0IG9iamVjdEF0SW5kZXg6aW5kZXhQYXRoLnJvd107CiAgICBtYWluTGFiZWwudGV4dCA9IFthRGljdCBvYmplY3RGb3JLZXk6QCJtYWluVGl0bGVLZXkiXTsKICAgIHNlY29uZExhYmVsLnRleHQgPSBbYURpY3Qgb2JqZWN0Rm9yS2V5OkAic2Vjb25kYXJ5VGl0bGVLZXkiXTsKICAgIE5TU3RyaW5nICppbWFnZVBhdGggPSBbW05TQnVuZGxlIG1haW5CdW5kbGVdIHBhdGhGb3JSZXNvdXJjZTpbYURpY3Qgb2JqZWN0Rm9yS2V5OkAiaW1hZ2VLZXkiXSBvZlR5cGU6QCJwbmciXTsKICAgIFVJSW1hZ2UgKnRoZUltYWdlID0gW1VJSW1hZ2UgaW1hZ2VXaXRoQ29udGVudHNPZkZpbGU6aW1hZ2VQYXRoXTsKICAgIHBob3RvLmltYWdlID0gdGhlSW1hZ2U7CiAKICAgIHJldHVybiBjZWxsOwp9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z133"></relationship>
+    </object>
+    <object type="ASSET" id="z135">
+        <attribute name="notes" type="string">Jacques Couvreur posted a new message:
+Property pour des champs privés
+https://inagua.basecamphq.com/P59759344
+
+L’utilisation de property permet la gestion transparente de la mémoire, et facilite donc la vie du développeur iOS. Par contre, les property “standard” violent la règle de l’encapsulation en exposant publiquement des attributs que l’on souhaite privés.
+
+Pour avoir le beurre, l’argent du beurre et la crémière amoureuse, on peut utiliser des property privées :
+
+Il n’y a rien à mettre dans le .h (évidemment puisque que c’est privé), seulement dans le .m…. Par exemple avec la classe FTPService pour la propriété privée ftpFileLoader :</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">Ly8gRlRQU2VydmljZS5tCgojaW1wb3J0IOKAnEZUUFNlcnZpY2UuaOKAnQoKLy8gVGhlIDMgZm9s
+bG93aW5nIGxpbmVzIGFyZSBzcGVjaWZpYyB0byBhIHByaXZhdGUgcHJvcGVydHkgOgpAaW50ZXJmYWNlIEZUUFNlcnZpY2UgKCkKQHByb3BlcnR5KG5vbmF0b21pYywgcmV0YWluKSBGVFBGaWxlTG9hZGVyKiBmdHBGaWxlTG9hZGVyOyAvLyAqKiogUFJJVkFURSBQUk9QRVJUWSAqKioqIDEvMwpAZW5kCgpAaW1wbGVtZW50YXRpb24gRlRQU2VydmljZQoKQHN5bnRoZXNpemUgZnRwRmlsZUxvYWRlcjsgLy8gKioqIFBSSVZBVEUgUFJPUEVSVFkgKioqKiAyLzMgKGFzIHB1YmxpYyBwcm9wZXJ0eSkKCuKAkyAodm9pZClkZWFsbG9jIHsgW2Z0cEZpbGVMb2FkZXIgcmVsZWFzZV07IC8vICoqKiBQUklWQVRFIFBST1BFUlRZICoqKiogMy8zIChhcyBwdWJsaWMgcHJvcGVydHkpIFtzdXBlciBkZWFsbG9jXTsKfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z136"></relationship>
+    </object>
+    <object type="SNIPPET" id="z136">
+        <attribute name="name" type="string">Private Properties</attribute>
+        <attribute name="modified" type="date">353426595.48760902881622314453</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z135"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z137">
+        <attribute name="name" type="string">Copy UIColor</attribute>
+        <attribute name="modified" type="date">353515754.22875702381134033203</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z138"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z138">
+        <attribute name="notes" type="string">This works as well, but is less well "designed":
+UIColor *copiedColor = [[UIColor colorWithCGColor:[originalColor CGColor]] retain];</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">VUlDb2xvciAqY29waWVkQ29sb3IgPSBbW1VJQ29sb3IgYWxsb2NdIGluaXRXaXRoQ0dDb2xvcjpb
+b3JpZ2luYWxDb2xvciBDR0NvbG9yXV07
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z137"></relationship>
+    </object>
+    <object type="SNIPPET" id="z139">
+        <attribute name="name" type="string">Perform Selector In Background</attribute>
+        <attribute name="modified" type="date">353525797.78364098072052001953</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z140"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z140">
+        <attribute name="notes" type="string">Use [NSNumber numberWithBool:YES] for booleans, since we have to pass an object.</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">W3NlbGYgcGVyZm9ybVNlbGVjdG9ySW5CYWNrZ3JvdW5kOkBzZWxlY3RvcihzZXRIaWdobGlnaHRl
+ZDopIHdpdGhPYmplY3Q6W05TTnVtYmVyIG51bWJlcldpdGhCb29sOllFU11dOw==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z139"></relationship>
+    </object>
+    <object type="SNIPPET" id="z141">
+        <attribute name="name" type="string">Scroll To Completely Show Cell in UITable</attribute>
+        <attribute name="modified" type="date">353525846.54215002059936523438</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z142"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z142">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">KyAodm9pZClzY3JvbGxUb0NvbXBsZXRlbHlTaG93Q2VsbEZvclJvd0F0SW5kZXhQYXRoOihOU0lu
+ZGV4UGF0aCAqKWlwIGluVGFibGU6KFVJVGFibGVWaWV3ICopdGFibGVWaWV3IHsKICAgIE5TQXJyYXkgKmluZGV4ZXMgPSBbdGFibGVWaWV3IGluZGV4UGF0aHNGb3JWaXNpYmxlUm93c107CiAgICBpZiAoW1tpbmRleGVzIG9iamVjdEF0SW5kZXg6MF0gaXNFcXVhbDppcF0pIHsKICAgICAgICBbdGFibGVWaWV3IHNjcm9sbFRvUm93QXRJbmRleFBhdGg6aXAgYXRTY3JvbGxQb3NpdGlvbjpVSVRhYmxlVmlld1Njcm9sbFBvc2l0aW9uVG9wIGFuaW1hdGVkOllFU107CiAgICB9IGVsc2UgaWYgKFtbaW5kZXhlcyBsYXN0T2JqZWN0XSBpc0VxdWFsOmlwXSkgewogICAgICAgIFt0YWJsZVZpZXcgc2Nyb2xsVG9Sb3dBdEluZGV4UGF0aDppcCBhdFNjcm9sbFBvc2l0aW9uOlVJVGFibGVWaWV3U2Nyb2xsUG9zaXRpb25Cb3R0b20gYW5pbWF0ZWQ6WUVTXTsKICAgIH0KfQoK
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z141"></relationship>
+    </object>
+    <object type="SNIPPET" id="z143">
+        <attribute name="name" type="string">Define C struct and maker</attribute>
+        <attribute name="modified" type="date">353603660.71573102474212646484</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z144"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z144">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="content" type="binary">c3RydWN0IEhvcml6b250YWxNYXJnaW4gewogICAgQ0dGbG9hdCBsZWZ0TWFyZ2luOwogICAgQ0dG
+bG9hdCByaWdodE1hcmdpbjsKfTsKdHlwZWRlZiBzdHJ1Y3QgSG9yaXpvbnRhbE1hcmdpbiBIb3Jpem9udGFsTWFyZ2luOwoKc3RhdGljIGlubGluZSBIb3Jpem9udGFsTWFyZ2luIEhvcml6b250YWxNYXJnaW5NYWtlKENHRmxvYXQgbGVmdE1hcmdpbiwgQ0dGbG9hdCByaWdodE1hcmdpbikKewogICAgSG9yaXpvbnRhbE1hcmdpbiBwOyBwLmxlZnRNYXJnaW4gPSBsZWZ0TWFyZ2luOyBwLnJpZ2h0TWFyZ2luID0gcmlnaHRNYXJnaW47IHJldHVybiBwOwp9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z143"></relationship>
+    </object>
+    <object type="SNIPPET" id="z147">
+        <attribute name="name" type="string">git create and publish new branch</attribute>
+        <attribute name="modified" type="date">354105810.37251502275466918945</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z148"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z148">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://gitready.com/beginner/2009/02/02/push-and-delete-branches.html
+http://coders-log.blogspot.com/2009/05/creating-remote-branch-with-git.html</attribute>
+        <attribute name="content" type="binary">Z2l0IGNoZWNrb3V0IC1iIF9fbmV3YnJhbmNobmFtZV9fCmdpdCBwdXNoIC11IG9yaWdpbiBfX25l
+d2JyYW5jaG5hbWVfXwpnaXQgcmVtb3RlIHNob3cgb3JpZ2luCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z147"></relationship>
+    </object>
+    <object type="SNIPPET" id="z149">
+        <attribute name="name" type="string">git clone</attribute>
+        <attribute name="modified" type="date">354116737.08498597145080566406</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z150"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z150">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">https://123.writeboard.com/0ldqb6ff3lx4iydonyubl4nd</attribute>
+        <attribute name="content" type="binary">Z2l0IGNsb25lIGdpdEBnaXRodWIuY29tOl9fdXNlcm5hbWVfXy9fX3Byb2plY3RfXw==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z149"></relationship>
+    </object>
+    <object type="SNIPPET" id="z151">
+        <attribute name="name" type="string">Paste in the terminal</attribute>
+        <attribute name="modified" type="date">354115905.29609000682830810547</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z152"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z152">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://hints.macworld.com/article.php?story=20010627221216167</attribute>
+        <attribute name="content" type="binary">cGJwYXN0ZQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z151"></relationship>
+    </object>
+    <object type="ASSET" id="z153">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://hints.macworld.com/article.php?story=20010627221216167</attribute>
+        <attribute name="content" type="binary">cGJjb3B5
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z154"></relationship>
+    </object>
+    <object type="SNIPPET" id="z154">
+        <attribute name="name" type="string">Copy in the terminal</attribute>
+        <attribute name="modified" type="date">354115924.11610901355743408203</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z153"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z155">
+        <attribute name="name" type="string">Append text into UITextView</attribute>
+        <attribute name="modified" type="date">354615157.49371701478958129883</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z156"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z156">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://stackoverflow.com/questions/1088960/iphone-auto-scroll-uitextview-but-allow-manual-scrolling-also
+
+First used in: loopr, 28mar2012</attribute>
+        <attribute name="content" type="binary">LSAodm9pZCkgYXBwZW5kVGV4dDooTlNTdHJpbmcgKil0ZXh0IGludG9UZXh0VmlldzooVUlUZXh0
+VmlldyAqKXR2IGFuaW1hdGVkOihCT09MKWFuaW1hdGVkIHsKICAgIHR2LnRleHQgPSBbdGV4dCBzdHJpbmdCeUFwcGVuZGluZ0Zvcm1hdDpAIlxuJUAiLCB0di50ZXh0XTsKICAgIGlmIChhbmltYXRlZCkgewogICAgICAgIGZsb2F0IGxpbmVIZWlnaHQgPSBbdHYuZm9udCBsaW5lSGVpZ2h0XTsKICAgICAgICBDR1BvaW50IHNjcm9sbFBvaW50ID0gdHYuY29udGVudE9mZnNldDsKICAgICAgICBzY3JvbGxQb2ludC55PSBzY3JvbGxQb2ludC55K2xpbmVIZWlnaHQ7CiAgICAgICAgW3R2IHNldENvbnRlbnRPZmZzZXQ6c2Nyb2xsUG9pbnQgYW5pbWF0ZWQ6Tk9dOwogICAgICAgIHNjcm9sbFBvaW50Lnk9IHNjcm9sbFBvaW50LnktbGluZUhlaWdodDsKICAgICAgICBbdHYgc2V0Q29udGVudE9mZnNldDpzY3JvbGxQb2ludCBhbmltYXRlZDpZRVNdOyAgICAKICAgIH0KfQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z155"></relationship>
+    </object>
+    <object type="ASSET" id="z157">
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Snippet.m</attribute>
+        <attribute name="notes" type="string">http://mobile.tutsplus.com/tutorials/iphone/mfmailcomposeviewcontroller/</attribute>
+        <attribute name="content" type="binary">LSAoSUJBY3Rpb24pb3Blbk1haWw6KGlkKXNlbmRlcgp7CsKgwqDCoMKgaWYgKFtNRk1haWxDb21w
+b3NlVmlld0NvbnRyb2xsZXIgY2FuU2VuZE1haWxdKQrCoMKgwqDCoHsKwqDCoMKgwqDCoMKgwqDCoE1GTWFpbENvbXBvc2VWaWV3Q29udHJvbGxlciAqbWFpbGVyID0gW1tNRk1haWxDb21wb3NlVmlld0NvbnRyb2xsZXIgYWxsb2NdIGluaXRdOwrCoArCoMKgwqDCoMKgwqDCoMKgbWFpbGVyLm1haWxDb21wb3NlRGVsZWdhdGUgPSBzZWxmOwrCoArCoMKgwqDCoMKgwqDCoMKgW21haWxlciBzZXRTdWJqZWN0OkAiQSBNZXNzYWdlIGZyb20gTW9iaWxlVHV0cysiXTsKwqAKwqDCoMKgwqDCoMKgwqDCoE5TQXJyYXkgKnRvUmVjaXBpZW50cyA9IFtOU0FycmF5IGFycmF5V2l0aE9iamVjdHM6QCJmaXNydE1haWxAZXhhbXBsZS5jb20iLCBAInNlY29uZE1haWxAZXhhbXBsZS5jb20iLCBuaWxdOwrCoMKgwqDCoMKgwqDCoMKgW21haWxlciBzZXRUb1JlY2lwaWVudHM6dG9SZWNpcGllbnRzXTsKwqAKwqDCoMKgwqDCoMKgwqDCoFVJSW1hZ2UgKm15SW1hZ2UgPSBbVUlJbWFnZSBpbWFnZU5hbWVkOkAibW9iaWxldHV0cy1sb2dvLnBuZyJdOwrCoMKgwqDCoMKgwqDCoMKgTlNEYXRhICppbWFnZURhdGEgPSBVSUltYWdlUE5HUmVwcmVzZW50YXRpb24obXlJbWFnZSk7CsKgwqDCoMKgwqDCoMKgwqBbbWFpbGVyIGFkZEF0dGFjaG1lbnREYXRhOmltYWdlRGF0YSBtaW1lVHlwZTpAImltYWdlL3BuZyIgZmlsZU5hbWU6QCJtb2JpbGV0dXRzSW1hZ2UiXTsgCsKgCsKgwqDCoMKgwqDCoMKgwqBOU1N0cmluZyAqZW1haWxCb2R5ID0gQCJIYXZlIHlvdSBzZWVuIHRoZSBNb2JpbGVUdXRzKyB3ZWIgc2l0ZT8iOwrCoMKgwqDCoMKgwqDCoMKgW21haWxlciBzZXRNZXNzYWdlQm9keTplbWFpbEJvZHkgaXNIVE1MOk5PXTsKwqAKwqDCoMKgwqDCoMKgwqDCoFtzZWxmIHByZXNlbnRNb2RhbFZpZXdDb250cm9sbGVyOm1haWxlciBhbmltYXRlZDpZRVNdOwrCoArCoMKgwqDCoMKgwqDCoMKgW21haWxlciByZWxlYXNlXTsKwqDCoMKgwqB9CsKgwqDCoMKgZWxzZQrCoMKgwqDCoHsKwqDCoMKgwqDCoMKgwqDCoFVJQWxlcnRWaWV3ICphbGVydCA9IFtbVUlBbGVydFZpZXcgYWxsb2NdIGluaXRXaXRoVGl0bGU6QCJGYWlsdXJlIgrCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgbWVzc2FnZTpAIllvdXIgZGV2aWNlIGRvZXNuJ3Qgc3VwcG9ydCB0aGUgY29tcG9zZXIgc2hlZXQiCsKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgZGVsZWdhdGU6bmlsCsKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgY2FuY2VsQnV0dG9uVGl0bGU6QCJPSyIKwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqBvdGhlckJ1dHRvblRpdGxlczogbmlsXTsKwqDCoMKgwqDCoMKgwqDCoFthbGVydCBzaG93XTsKwqDCoMKgwqDCoMKgwqDCoFthbGVydCByZWxlYXNlXTsKwqDCoMKgwqB9CsKgCn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z158"></relationship>
+    </object>
+    <object type="SNIPPET" id="z158">
+        <attribute name="name" type="string">Send E-mail In-App</attribute>
+        <attribute name="modified" type="date">354730895.17066502571105957031</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z157"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
